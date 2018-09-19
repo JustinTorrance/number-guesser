@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Number Guesser</title>
+</head>
+<body>
+  <header>
+    <h1>Number <span>Guesser</span></h1>
+  </header>
+  <form>
+    <input type="number" name="input-guess" class="input-guess" placeholder="Enter your guess">
+    <div class="top-button-container">
+      <button class="guess-btn top-btn btn" disabled>Guess</button>
+      <button class="clear-btn top-btn btn" disabled>Clear</button>
+    </div>
+    <div class="dynamic-text-container">
+      <p class="your-last">Guess a number between 1 and 100!</p>
+      <p class="guessed-number"></p>
+      <p class="response"></p>
+    </div>
+    <button class="reset-btn btn" disabled>Reset</button>
+  </form>  
+
+<!--   <form class="set-range-container">
+    <p class="choose-rang-string">Choose your own range:</p>
+    <input type="number" class="user-set-min" placeholder="Min">
+    <input type="number" class="user-set-max" placeholder="Max">
+    <button class="user-set-submit btn">Create new range</button>
+  </form> -->
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
